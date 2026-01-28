@@ -1,0 +1,25 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap'); 
+    /* Fonte h1 h2 */
+    @import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    /* Fonte p */
+
+    h1, h2 {
+        font: normal bolder 40px "Goblin One", serif;
+        color:white;
+        text-align: center;
+        text-shadow: 2px 2px 2px rgb(0, 255, 187);
+    }
+    body {
+        background-color: rgb(158, 159, 160);
+        margin:auto;
+        color: whitesmoke;
+        text-align: justify;
+        width: 50%;
+        height: 30%;
+    }
+        p{
+            color: black;
+            padding: 6px;
+            font: normal 400 16px "Roboto", sans-serif;
+        }
