@@ -79,6 +79,8 @@ main p{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
+}section {
+    flex: 1;
 }
 
 #livro2{

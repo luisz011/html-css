@@ -6,8 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="form.php" method="post">
+    
+        <form action="form.php" method="post">
+        <div>
+              <label for="name">Nome:</label> <input type="text" name="name" id="name" required minlength="8">
+        </div>
+        <div>
+            <label for="email">email:</label> <input type="text" name="email" id="email" required minlength="15">
+        </div>
+          <div>
+            <label for="senha">Senha:</label> <input type="password" name="senha" id="senha" autocomplete="current-password">
 
+        </div>
+        <div>
+            <input type="submit" value="Enviar" >
+            <input type="reset" value="Limpar">
+        </div>
     </form>
 </body>
-</html>w
+</html>
