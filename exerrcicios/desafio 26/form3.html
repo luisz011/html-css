@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sila</title>
+</head>
+<body>
+    <form action="opa.php" method="post">
+        <p>
+            <label for="list">Estate</label>
+            <select name="list" id="list">
+            
+                <option value="e">Escolha</option>
+                <optgroup label="Norte">
+                    <option value="ar">Araucaria </option>
+                    <option value="pt">Parana</option>
+                    <option value="re">Recife</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option value="sp">Sao Paulo</option>
+                    <option value="re">Santa Ct</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="lista">Profissao</label>
+            <input type="text" name="lista" id="lista" list="lst">
+            <datalist id="lst">
+                    <option value="ADM"></option>
+                    <option value="DVG"></option>
+                    <option value="ec"></option>
+            </datalist>
+        </p>
+
+    </form>
+</body>
+</html>

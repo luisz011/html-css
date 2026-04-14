@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="opa.html" method="post" > 
+        <p>
+            <label for="numero">N1:</label><input type="number" name="numero" id="numero" minlength="0" maxlength="40" required oninput="soma.innerHTML = Number(numero.value)+Number(n2.value)">
+        </p>
+        <p>
+            <label for="n2">N2:</label> <input type="number" name="n2" id="n2" minlength="0" maxlength="40" required oninput="soma.innerHTML = Number(numero.value)+Number(n2.value)"> 
+        </p>
+        <p>
+            <label for="soma">Soma:</label>
+            <output name="soma" id="soma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar ">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
